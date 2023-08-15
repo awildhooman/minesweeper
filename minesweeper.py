@@ -139,6 +139,7 @@ print("Welcome to Minesweeper! Your task is to clear all of the spaces without h
 boardLength = int(input("Choose length of board: "))
 boardHeight = int(input("Choose height of board: "))
 percentMines = int(input("Choose percentage of mines between 1 and 100: "))
+print("Input syntax: <column> <row> <action>")
 #gamestate: 0 means game is in progress, 1 means game is won, -1 means game is lost
 gameState = 0
 allSquaresRevealed = 1
